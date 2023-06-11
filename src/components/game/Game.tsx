@@ -1,5 +1,5 @@
-import Tabuleiro from "../tabuleiro/Tabuleiro";
-import { ContainerGame } from "./styles";
+import Tabuleiro from '../tabuleiro/Tabuleiro'
+import { ContainerGame } from './styles'
 
 const Game = () => {
   return (
@@ -8,7 +8,7 @@ const Game = () => {
       {/* Adicione aqui o código do tabuleiro e das peças */}
       <Tabuleiro />
     </ContainerGame>
-  );
-};
+  )
+}
 
 export default Game
