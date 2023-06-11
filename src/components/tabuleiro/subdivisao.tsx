@@ -1,18 +1,20 @@
-import { ContainerSubdivisao } from './styles';
+import { ContainerSubdivisao } from './styles'
 
 interface IProps {
-  cor: boolean;
-  children?: React.ReactNode;
+  cor: boolean
+  children?: React.ReactNode
+  onClick?: () => void
 }
 
-const Subdivisao: React.FC<IProps> = ({ cor, children }) => {
-  return <ContainerSubdivisao cor={cor}>
-    {children}
-  </ContainerSubdivisao>;
-};
+const Subdivisao: React.FC<IProps> = ({ cor, children, onClick }) => {
+  return (
+    <ContainerSubdivisao cor={cor} onClick={onClick}>
+      {children}
+    </ContainerSubdivisao>
+  )
+}
 
-export default Subdivisao;
-
+export default Subdivisao
 
 /*
 interface IProps {

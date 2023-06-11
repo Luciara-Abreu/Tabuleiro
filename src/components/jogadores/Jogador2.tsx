@@ -1,11 +1,22 @@
 import { ContainerJogador, Luigi } from './styles'
 import Image from 'next/image'
 
-const Jogador2: React.FC = () => {
+interface IProps {
+  id: string
+}
+
+const Jogador2: React.FC<IProps> = ({ id }) => {
   return (
     <ContainerJogador>
       <Luigi>
-        <Image  src="/images/Luigi.png"  alt="Imagem do Luigi"  className='luigi'  width={65} height={65} />
+        <Image
+          src="/images/Luigi.png"
+          alt="Imagem do Luigi"
+          className="luigi"
+          width={65}
+          height={65}
+          id={id}
+        />
       </Luigi>
     </ContainerJogador>
   )
