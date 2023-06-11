@@ -11,7 +11,7 @@ const ContainerGame = styled.div`
 
   .title {
     margin: 0;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     color: white;
   }
 
@@ -25,4 +25,20 @@ const ContainerGame = styled.div`
   }
 `
 
-export { ContainerGame }
+const Pontuacao = styled.div`
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items:center;
+
+.pontuadao-mario {
+margin-left: 20%;
+}
+
+.pontuadao-luigi{
+margin-right: 20%;
+}
+`
+
+
+export { ContainerGame,Pontuacao }

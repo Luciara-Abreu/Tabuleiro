@@ -28,20 +28,20 @@ const Linha: React.FC<ILinhaProps> = ({ preta }) => {
           jogador1Cells = true
         }
 
-        if (preta && index == 5) {
+
+        if (!preta && index == 5) {
           jogador2Cells = true
         }
-        if (!preta && index == 6) {
+        if (preta && index == 6) {
           jogador2Cells = true
         }
 
-        if (preta && index == 7) {
+        if (!preta && index == 7) {
           jogador2Cells = true
         }
 
         return (
           <Subdivisao cor={cor} key={index}>
-            {/* Adicione os jogadores apenas nas células pretas */}
             {jogador1Cells && <PecaJogador1 />}
             {jogador2Cells && <PecaJogador2 />}
           </Subdivisao>

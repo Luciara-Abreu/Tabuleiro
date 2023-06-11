@@ -31,7 +31,7 @@ const Luigi = styled.div`
   width: auto;
   .luigi {
     border-radius: 50px;
-    background: black;
+    background: #fff;
   }
 `
 
