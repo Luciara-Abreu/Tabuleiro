@@ -3,7 +3,6 @@ import styled from 'styled-components'
 
 const ContainerTabuleiro = styled.div`
   width: 100%;
-  min-height: 96vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,8 +22,8 @@ interface IProps extends HTMLAttributes<HTMLDivElement> {
   cor?: boolean
 }
 const ContainerSubdivisao = styled.div<IProps>`
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   background-color: ${props => (props.cor ? '#000' : '#fff')};
 
   @media (max-width: 768px) {
