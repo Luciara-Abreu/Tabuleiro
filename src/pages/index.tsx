@@ -1,6 +1,5 @@
 import Footer from '@/components/footer/Footer'
 import { Body, Container } from '@/styles/styles'
-import Tabuleiro from '@/components/tabuleiro/Tabuleiro'
 import Game from '@/components/game/Game'
 
 export default function Home() {

@@ -4,31 +4,34 @@ const ContainerJogador = styled.div`
   width: 100%;
   margin: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 5% 0 5% 0;
+  padding: 9% 0 5% 0;
 
   @media (max-width: 767px) {
     width: auto;
     height: auto;
     display: flex;
     flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
     padding: 0;
   }
 `
 
 const Mario = styled.div`
- width: auto;
+  width: auto;
   .mario {
     border-radius: 50px;
   }
 `
 
 const Luigi = styled.div`
- width: auto;
+  width: auto;
   .luigi {
     border-radius: 50px;
-    background: #fff;
+    background: black;
   }
 `
 

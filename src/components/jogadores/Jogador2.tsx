@@ -5,7 +5,7 @@ const Jogador2: React.FC = () => {
   return (
     <ContainerJogador>
       <Luigi>
-        <Image  src="/images/Luigi.png"  alt="Imagem do Luigi"  className='luigi'  width={70} height={70} />
+        <Image  src="/images/Luigi.png"  alt="Imagem do Luigi"  className='luigi'  width={65} height={65} />
       </Luigi>
     </ContainerJogador>
   )

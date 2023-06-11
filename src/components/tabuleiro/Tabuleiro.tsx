@@ -31,14 +31,6 @@ function Tabuleiro() {
       <Linha />
       <Linha preta />
       <Linha />
-
-      <Mario id="casa_0_0" onClick={() => handleCasaClick('casa_0_0')}>
-        <Jogador1 />
-      </Mario>
-        <Luigi id="casa_0_1" onClick={() => handleCasaClick('casa_0_1')}>
-          <Jogador2 />
-        </Luigi>
-        {/* Renderize as demais casas */}
       </ContainerTabuleiro>
 
       <div id="info_casa_selecionada">{casaSelecionada}</div>
